@@ -1,7 +1,7 @@
 import requests
 from surveymonkey_client import SurveyMonkeyClient
 API_URL = "https://api.surveymonkey.com/v3"
-access_token="tOt-QCvM5tKO73Krcx3KwVkjUkISBxdCzn59Ia9QNBBCd2FsUAInzcy9r6OTd6jMaxOZQZaOnJEMGm4lfKblYQMihk9YgDtOE.WOeEguxabG99mprCBlAVD1ggONs0SU"
+access_token=""
 # Initialize your SurveyMonkey client
 client = SurveyMonkeyClient(access_token)
 
