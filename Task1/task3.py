@@ -22,7 +22,7 @@ def read_access_log(file_name):
 def main():
     if len(sys.argv) != 2:
         print("Please enter file name as described in the usage")
-        print("Usage: python script_name.py <access_log_file>")
+        print("Usage: python3 script_name.py <access_log_file>")
         sys.exit(1)
 
     file_name = sys.argv[1]
