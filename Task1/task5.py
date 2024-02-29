@@ -44,6 +44,7 @@ def get_ip_address():
 #Main function where all the information is displayed according to command line arguments
 def main():
     if len(sys.argv) < 2:
+        print("Invalid input format provided")
         print("Usage: python script_name.py [-d] [-m] [-c] [-u] [-l] [-i]")
         sys.exit(1)
 
