@@ -24,10 +24,7 @@ def main():
         print("Please enter file name as described in the usage")
         print("Usage: python3 script_name.py <access_log_file>")
         sys.exit(1)
-
-    file_name = sys.argv[1]
-    user_agents, total_requests = read_access_log(file_name)
-
+    user_agents, total_requests = read_access_log(sys.argv[1])
     print(f"Total number of different User Agents: {len(user_agents)}")
     print("Statistics:")
     for user_agent, requests in user_agents.items():
