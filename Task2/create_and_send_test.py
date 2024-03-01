@@ -43,7 +43,6 @@ def login(sender_email, password):
 def send_email(server, sender_email, name, invitee_email, survey_link):
     if server:
         message_body = message_template.substitute(PERSON_NAME=name, LINK=survey_link)
-        # message_body = message_template.substitute(LINK={survey_link})
         message = MIMEMultipart()
         message["From"] = sender_email
         message["To"] = invitee_email
