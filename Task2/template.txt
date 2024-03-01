@@ -1,0 +1,11 @@
+Dear ${PERSON_NAME}, 
+
+Please take 2 minutes of your time to fill this survey on productivity. 
+Have a great weekend! 
+
+
+Please click the following link to access the survey: ${LINK}
+
+
+Regards,
+<Person_Name>.
