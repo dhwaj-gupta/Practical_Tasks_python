@@ -1,0 +1,25 @@
+{
+    "title": "Survey on Productivity",
+    "pages": [
+      {
+        "title": "Page 1",
+        "questions": [
+          {
+            "title": "What is your age?",
+            "type": "single_choice",
+            "answers": ["Under 18", "18-30", "31-45", "46-60", "Over 60"]
+          },
+          {
+            "title": "What do you do on your leisure time?",
+            "type": "single_choice",
+            "answers": ["Read", "Watch TV", "Exercise", "Socialize", "Other"]
+          },
+          {
+            "title": "Are you satisfied with how you spend your free time?",
+            "type": "single_choice",
+            "answers": ["Yes", "No"]
+          }
+        ]
+      }
+    ]
+  }
